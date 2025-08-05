@@ -2,6 +2,10 @@
 name = "krabby_details"
 version = "0.1.0"
 edition = "2024"
+description = "This is a simple library to follow the RFC 9457 specification"
+license = "MIT"
+authors = ["Phosphorus-M"]
+repository = "https://github.com/DwebbleRS/krabby_details"
 
 [dependencies]
 axum-core = "0.5.2"
