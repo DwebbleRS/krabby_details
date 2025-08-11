@@ -6,7 +6,7 @@ use std::borrow::Cow;
 use bytes::{BufMut, BytesMut};
 use http::{header::CONTENT_TYPE, HeaderName, HeaderValue, StatusCode};
 
-#[derive(serde::Serialize)]
+#[derive(serde::Serialize, Debug)]
 pub struct ProblemDetails<Extension> {
     #[serde(rename = "type")]
     pub type_: Cow<'static, str>,
